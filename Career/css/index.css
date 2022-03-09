@@ -1,0 +1,79 @@
+*{padding:0;margin:0;}
+body{font-size: 1.2rem;font-family: "微软雅黑";line-height: 2rem;}
+a{text-decoration: none;}
+ul li,ol li{list-style-type: none;}
+.clear{clear:both;}
+                                                                                  /*媒体查询*/
+@media screen and(max-width:980px){
+    #pagewrap{
+        width:95%;
+    }
+}
+@media screen and(max-width:650px){
+    #pagewrap{
+        width:100%;
+    }
+}
+@media screen and(max-width:480px){
+    #pagewrap{
+        width:auto;
+    }
+}
+                                                                                  /*顶部*/
+header{width:100%;height:15rem;}
+header>a img{position: absolute;top:3rem;left:2rem;}
+header .nav{display: inline-block;margin:5rem 0 0 44rem;font-size: 1.6rem;}
+header .nav li{margin-right: 2rem;}
+header .nav li a:hover{background-color: #fff;}
+header .nav>li:nth-child(4)>a{color:#e58309;}
+header .nav>li a:hover{color:#e58309;}
+header .nav li span{color:#8e8e8d;position:absolute;top:0;display: inline-block;width:20rem;}
+header .nav ul{position:absolute;top:3.5rem;line-height: 3rem;display:none;}
+.one{right:-9.2rem;}
+.second{left:1.5rem;}
+.third{right:-15rem;}
+.forth{right:-13.5rem;}
+.fifth{right:-8.5rem;}
+header .nav>li:hover ul{display:block;}
+header .nav ul a{color:#8e8e8d;text-decoration: none;}
+header .nav ul a:hover{color:#e58309;text-decoration: none;}
+header>span{margin-left:20rem;position: absolute;top:6rem;right:10rem;font-size:1.7rem;}
+header>span>a:hover{color:#e58309;text-decoration: none;}
+header>span:hover .language{display: block;}
+header .first{color:#e58309;}
+.language{width:14rem;height:27.5rem;background-color: #e8e8e8;padding-top: 1.5rem;margin-top:2rem;
+    display: none;position: absolute;right:-5rem;top:0.3rem;}
+.language ul{line-height: 3rem;}
+.language ul li{padding-left:1.5rem;}
+.language ul li a:hover{color:#e58309;text-decoration: none;}
+.language a{color:#8e8e8d;}
+.ben{color:#e58309 !important;text-decoration: none !important;}
+                                                                                    /*主体*/
+section>h1{text-align: center;font-size:5rem;color:#000;margin: 11rem 0 3rem;}
+.text{width:100%;margin-bottom: 7rem;}
+.text-1{width:48%;height:100%;margin:0 auto;padding-top: 3rem;}
+.text-1 p{font-size: 1.7rem;color:#000;line-height: 2.8rem;}
+section button{width:14rem;height:5rem;border-radius:3rem;margin-left:60rem;color:#fff;
+    background-color: #e58309;border:none;font-size:1.8rem;margin-top:2rem;}
+section button:hover{background-color: #e78f21;}
+.picture{width:74%;margin:10rem auto 0;position: relative;}
+.blue{width:91%;height:17.5rem;position:absolute;z-index: 1;bottom: 0;
+    background-color:#0069b4;opacity:0.7;text-align: center;color: #fff;font-size: 1.4rem;}
+.col-md-4:hover .blue{opacity: 1;}
+.blue p{line-height: 2.7rem;margin-top: 2rem;}
+section>ul{width:50%;margin:11rem auto 0;line-height: 3rem;color:#000;font-size: 1.7rem;}
+section>ul a{color:#000;}
+section>ul a:hover{color:#0069b4;}
+section>ul:nth-of-type(3) a:hover{text-decoration: none;}
+section>ul:nth-of-type(3){padding-bottom: 8rem;}
+section>ul li img{float:right;}
+section>ul li:first-of-type{font-size: 3rem;margin-bottom: 3rem;}
+section>ul span{margin-left: 11rem;}
+section>ul:nth-of-type(2) a{margin-left: 18rem;color:#0069b4;text-decoration: underline;}
+                                                                                    /*底部*/
+footer{width:40%;margin:10rem auto 5rem;padding-bottom: 1rem;}
+footer ul li{float:left;margin-right: 5rem;}
+footer ul li a{color:#8e8e8d;font-size: 1.7rem;}
+footer ul li a:hover{color:#e58309;text-decoration: none;}
+
+
