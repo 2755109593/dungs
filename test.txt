@@ -1,2 +1,2 @@
-<encoding="utf8>
-Äã³òÉ¶
+encoding="utf8"
+ä½ ç…å•¥
